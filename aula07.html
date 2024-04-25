@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 07 - JS</title>
+    <!-- Link para pegar os icones para uso no codigo icones em SVG https://fontawesome.com/search?m=free&o=r -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- Inicio CSS -->
+    <link rel="stylesheet" href="css/css-aula07.css" type="text/css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="topnav">
+                <a href="#" class="active"><h1>Aula 07</h1></a>
+            </div>
+            <nav id="menu">
+                <ul>
+                    <li><a href="#">Página Inicial</a></li>
+                    <li><a href="#">Quem Somos</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+            <a href="#" class="icon" onclick="menu()"><i class="fa-solid fa-bars"></i></a>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer 
+                took a galley of type and scrambled it to make a type specimen book.
+            </p>
+        </div>
+        <div class="container">
+            <button class="modal-bnt">Abir modal ou PopUP</button>
+        </div>
+        <!--Modal PopUP-->
+        <div class="modal-overlay">
+            <div class="modal-container">
+                <h2>Titulo</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                <button class="close-bnt"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+        </div>
+    </main>
+    <!-- Inicio JS -->
+    <script src="js/js-aula07.js" language="JavaScript" type="text/JavaScript" charset="utf-8"></script>
+</body>
+</html>
